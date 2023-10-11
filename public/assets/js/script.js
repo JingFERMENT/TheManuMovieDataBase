@@ -5,7 +5,7 @@ fetch("./public/assets/data/movies.json")
       
       // déclarer la structure de la carte
       const card = `<div class="card m-2" id ="${movie.id}" >
-                    <img src="${movie.poster_path}" class="card-img-top m-auto" alt="..." >
+                    <img src="${movie.poster_path}" class="card-img-top" alt="..." >
                     <div class="card-body">
                       <h5 class="card-title">${movie.original_title}</h5>
                       <div class="scroll">

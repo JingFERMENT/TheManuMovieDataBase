@@ -14,10 +14,11 @@ footer p {
     font-size: 0.8rem;
 }
 
-.img {
+img {
     object-fit: cover;
-    height: auto;
+    height: 400px;
     width: 100%
+    
 }
 
 .scroll{
