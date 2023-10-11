@@ -4,36 +4,53 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Manu Movie DataBase</title>
   <meta name="description" content="Découvrir la méthode fetch()">
-  <title>The Manu Movie DataBase - TMMDB</title>
-  <script src="https://kit.fontawesome.com/895cd99747.js" crossorigin="anonymous"></script>
+  
+  <!-- google font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./public/assets/css/style.css">
+  <!-- bootstrap -->
   <link rel="stylesheet" href="./public/assets/framework/bootstrap.min.css" />
+  <!-- mon fichier css : toujours plus bas -->
+  <link rel="stylesheet" href="./public/assets/css/style.css">
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/895cd99747.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <header>
-    <h1 class="text-center my-5">The Manu Movie DataBase - TMMDB</h1>
+  <!-- header -->
+  <header class="container my-5">
+    <div class="row d-flex justify-content-center">
+      <div class="col-8">
+        <h1 class="text-center text-primary">The Manu Movie DataBase</h1>
+        <hr class="text-center text-primary m-auto border-3">
+      </div>
+    </div>
+
   </header>
 
-  <main id="container">
-    <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 g-4 d-flex justify-content-center" id="cardMovie">
+  <!-- main -->
+  <main class="container-fluid bg-light bg-gradient">
+    <!-- contenu des cartes des films -->
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 d-flex justify-content-center" id="cardMovie">
 
-      <!-- début d'une carte  -->
-      <!-- fin d'une carte  -->
+      <!--*****cartes des films générés par JS*****-->
 
     </div>
   </main>
 
+  <!-- footer -->
   <footer class="m-5">
     <div class="text-center">The Manu Movie DataBase © 2023</div>
   </footer>
-  <script src="./public/assets/framework/bootstrap.min.js"></script>
+
+  <!-- mon fichier JS  -->
   <script src="./public/assets/js/script.js"></script>
-  
+  <!-- bootstrap JS  -->
+  <script src="./public/assets/framework/bootstrap.min.js"></script>
+
 </body>
 
 </html>
